@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D9EE3951222726C700649BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE3950222726C700649BC2 /* AppDelegate.swift */; };
-		D9EE3953222726C700649BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE3952222726C700649BC2 /* ViewController.swift */; };
 		D9EE3956222726C700649BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EE3954222726C700649BC2 /* Main.storyboard */; };
 		D9EE3958222726C800649BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EE3957222726C800649BC2 /* Assets.xcassets */; };
 		D9EE395B222726C800649BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EE3959222726C800649BC2 /* LaunchScreen.storyboard */; };
+		D9EE39632227273D00649BC2 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE39622227273D00649BC2 /* TimeTableViewController.swift */; };
+		D9EE3965222749E600649BC2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE3964222749E600649BC2 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9EE394D222726C700649BC2 /* Outtatime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outtatime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EE3950222726C700649BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9EE3952222726C700649BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9EE3955222726C700649BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9EE3957222726C800649BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9EE395A222726C800649BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9EE395C222726C800649BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EE39622227273D00649BC2 /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		D9EE3964222749E600649BC2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				D9EE3950222726C700649BC2 /* AppDelegate.swift */,
-				D9EE3952222726C700649BC2 /* ViewController.swift */,
+				D9EE39622227273D00649BC2 /* TimeTableViewController.swift */,
+				D9EE3964222749E600649BC2 /* Data.swift */,
 				D9EE3954222726C700649BC2 /* Main.storyboard */,
 				D9EE3957222726C800649BC2 /* Assets.xcassets */,
 				D9EE3959222726C800649BC2 /* LaunchScreen.storyboard */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9EE3953222726C700649BC2 /* ViewController.swift in Sources */,
 				D9EE3951222726C700649BC2 /* AppDelegate.swift in Sources */,
+				D9EE3965222749E600649BC2 /* Data.swift in Sources */,
+				D9EE39632227273D00649BC2 /* TimeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
